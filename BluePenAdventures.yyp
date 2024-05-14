@@ -35,11 +35,13 @@
   "name":"BluePenAdventures",
   "resources":[
     {"id":{"name":"Obj_Teste","path":"objects/Obj_Teste/Obj_Teste.yy",},},
+    {"id":{"name":"Obj_Block","path":"objects/Obj_Block/Obj_Block.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Spr_walk_down","path":"sprites/Spr_walk_down/Spr_walk_down.yy",},},
     {"id":{"name":"Spr_walk_left","path":"sprites/Spr_walk_left/Spr_walk_left.yy",},},
     {"id":{"name":"Spr_walk_right","path":"sprites/Spr_walk_right/Spr_walk_right.yy",},},
     {"id":{"name":"Spr_walk_up","path":"sprites/Spr_walk_up/Spr_walk_up.yy",},},
+    {"id":{"name":"Sprite_Block","path":"sprites/Sprite_Block/Sprite_Block.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
