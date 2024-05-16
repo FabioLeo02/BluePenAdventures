@@ -16,7 +16,6 @@ else if (tecla_baixo){
 	sprite_index=Spr_walk_down;
 }
 
-
 // se quiser usar uma tecla com letra do teclado o comando é "keyboard_check(ord("letra da tecla em minusculo");"
 
 var tecla = tecla_dir - tecla_esq !=0 or tecla_baixo - tecla_cima != 0;
@@ -26,5 +25,11 @@ dir = point_direction(0,0,tecla_dir - tecla_esq, tecla_baixo - tecla_cima) //log
 velh = lengthdir_x(velc * tecla,dir);
 velv = lengthdir_y(velc * tecla,dir);
 
-x+= velh;
-y+= velv;
+// Verifique a colisão para a direção desejada antes de mover o personagem
+if (!place_meeting(x+velh, y, Obj_Block)) {
+    x += velh;
+}
+
+if (!place_meeting(x, y+velv, Obj_Block)) {
+    y += velv;
+}
