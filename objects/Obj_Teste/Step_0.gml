@@ -27,9 +27,11 @@ velv = lengthdir_y(velc * tecla,dir);
 
 // Verifique a colisão para a direção desejada antes de mover o personagem
 if (!place_meeting(x+velh, y, Obj_Block)) {
+
     x += velh;
 }
 
 if (!place_meeting(x, y+velv, Obj_Block)) {
     y += velv;
 }
+
