@@ -30,12 +30,13 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"BluePenAdventures",
   "resources":[
     {"id":{"name":"Obj_Block","path":"objects/Obj_Block/Obj_Block.yy",},},
     {"id":{"name":"Obj_Teste","path":"objects/Obj_Teste/Obj_Teste.yy",},},
+    {"id":{"name":"Obj_Camera","path":"objects/Obj_Camera/Obj_Camera.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Spr_walk_down","path":"sprites/Spr_walk_down/Spr_walk_down.yy",},},
     {"id":{"name":"Spr_walk_left","path":"sprites/Spr_walk_left/Spr_walk_left.yy",},},

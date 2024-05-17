@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Obj_Block","order":1,"path":"objects/Obj_Block/Obj_Block.yy",},
+    {"name":"Obj_Camera","order":2,"path":"objects/Obj_Camera/Obj_Camera.yy",},
     {"name":"Spr_walk_left","order":3,"path":"sprites/Spr_walk_left/Spr_walk_left.yy",},
     {"name":"Spr_walk_right","order":1,"path":"sprites/Spr_walk_right/Spr_walk_right.yy",},
     {"name":"Spr_walk_up","order":2,"path":"sprites/Spr_walk_up/Spr_walk_up.yy",},

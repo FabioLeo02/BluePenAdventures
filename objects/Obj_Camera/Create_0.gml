@@ -1,0 +1,2 @@
+//Definir Alvo
+alvo = noone
