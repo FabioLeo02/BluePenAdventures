@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Teste",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Vida",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_Teste",
+  "name":"Obj_Vida",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_walk_down",
-    "path":"sprites/Spr_walk_down/Spr_walk_down.yy",
+    "name":"Sprite_Life",
+    "path":"sprites/Sprite_Life/Sprite_Life.yy",
   },
   "spriteMaskId":null,
   "visible":true,
