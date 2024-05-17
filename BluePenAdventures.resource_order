@@ -25,5 +25,6 @@
     {"name":"Spr_walk_up","order":2,"path":"sprites/Spr_walk_up/Spr_walk_up.yy",},
     {"name":"Sprite_Block","order":4,"path":"sprites/Sprite_Block/Sprite_Block.yy",},
     {"name":"Sprite_Life","order":5,"path":"sprites/Sprite_Life/Sprite_Life.yy",},
+    {"name":"Sprite_undeground_background","order":6,"path":"sprites/Sprite_undeground_background/Sprite_undeground_background.yy",},
   ],
 }
