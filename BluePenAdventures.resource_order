@@ -19,7 +19,10 @@
   "ResourceOrderSettings":[
     {"name":"Obj_Block","order":1,"path":"objects/Obj_Block/Obj_Block.yy",},
     {"name":"Obj_Camera","order":2,"path":"objects/Obj_Camera/Obj_Camera.yy",},
+    {"name":"Obj_Diamond","order":4,"path":"objects/Obj_Diamond/Obj_Diamond.yy",},
     {"name":"Obj_Vida","order":3,"path":"objects/Obj_Vida/Obj_Vida.yy",},
+    {"name":"Spr_Diamond_Effect","order":8,"path":"sprites/Spr_Diamond_Effect/Spr_Diamond_Effect.yy",},
+    {"name":"Spr_Diamond","order":7,"path":"sprites/Spr_Diamond/Spr_Diamond.yy",},
     {"name":"Spr_walk_left","order":3,"path":"sprites/Spr_walk_left/Spr_walk_left.yy",},
     {"name":"Spr_walk_right","order":1,"path":"sprites/Spr_walk_right/Spr_walk_right.yy",},
     {"name":"Spr_walk_up","order":2,"path":"sprites/Spr_walk_up/Spr_walk_up.yy",},
