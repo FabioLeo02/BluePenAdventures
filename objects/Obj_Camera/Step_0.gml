@@ -1,7 +1,7 @@
 //Checar se o Jogador existe
-if(instance_exists(Obj_Teste))
+if(instance_exists(Obj_Player))
 {
-	alvo = 	Obj_Teste
+	alvo = 	Obj_Player
 }
 
 //Fazer a camera seguir o Jogador

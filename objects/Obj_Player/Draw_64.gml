@@ -6,8 +6,8 @@ repeat(vida){
 	xx+= 50
 }
 
-draw_x = 8;
-draw_y = 8;
+draw_x = 30;
+draw_y = 26;
 
 draw_set_font(FontBluePen);
 
