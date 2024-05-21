@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"BluePenAdventures",
   "resources":[
@@ -39,10 +39,14 @@
     {"id":{"name":"Obj_Camera","path":"objects/Obj_Camera/Obj_Camera.yy",},},
     {"id":{"name":"Obj_Diamond","path":"objects/Obj_Diamond/Obj_Diamond.yy",},},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},},
+    {"id":{"name":"Obj_Snake","path":"objects/Obj_Snake/Obj_Snake.yy",},},
     {"id":{"name":"Obj_Vida","path":"objects/Obj_Vida/Obj_Vida.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Spr_Diamond_Effect","path":"sprites/Spr_Diamond_Effect/Spr_Diamond_Effect.yy",},},
     {"id":{"name":"Spr_Diamond","path":"sprites/Spr_Diamond/Spr_Diamond.yy",},},
+    {"id":{"name":"Spr_snake_left","path":"sprites/Spr_snake_left/Spr_snake_left.yy",},},
+    {"id":{"name":"Spr_snake_right","path":"sprites/Spr_snake_right/Spr_snake_right.yy",},},
+    {"id":{"name":"Spr_snake_up","path":"sprites/Spr_snake_up/Spr_snake_up.yy",},},
     {"id":{"name":"Spr_walk_down","path":"sprites/Spr_walk_down/Spr_walk_down.yy",},},
     {"id":{"name":"Spr_walk_left","path":"sprites/Spr_walk_left/Spr_walk_left.yy",},},
     {"id":{"name":"Spr_walk_right","path":"sprites/Spr_walk_right/Spr_walk_right.yy",},},
