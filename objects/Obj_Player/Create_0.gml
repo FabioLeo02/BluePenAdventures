@@ -7,3 +7,5 @@ velc = 3.0; //velocidade do personagem
 
 diamantes = 0;
 vida = 3
+alfa_hit = 0;
+alarm[0] = 0;

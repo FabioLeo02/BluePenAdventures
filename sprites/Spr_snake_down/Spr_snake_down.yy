@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"Spr_snake_down",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":62,
   "bbox_left":7,
   "bbox_right":46,
-  "bbox_top":0,
+  "bbox_top":19,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

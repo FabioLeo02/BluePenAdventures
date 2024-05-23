@@ -1,3 +1,4 @@
+//Movimentação do personagem
 var tecla_cima = keyboard_check(vk_up);
 var tecla_baixo = keyboard_check(vk_down);
 var tecla_esq = keyboard_check(vk_left);
@@ -30,4 +31,11 @@ else if (tecla_dir){
         x += velocidade;
     }
     sprite_index = Spr_walk_right;
+}
+
+//Efeito de invecibilidade após levar dano
+if (alarm[0] > 0){
+    image_alpha = abs(sin(current_time / 200)); // Faz o personagem piscar
+} else {
+    image_alpha = 1; // Restaura a transparência normal quando o alarme termina
 }
