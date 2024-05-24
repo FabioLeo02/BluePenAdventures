@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Stage_1_La_ele",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":157.284,
+  "name":"Stage_1_La_ele",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Stage_1_La_ele.WAV",
+  "type":0,
+  "volume":1.0,
+}

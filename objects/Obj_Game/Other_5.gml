@@ -1,0 +1,1 @@
+audio_stop_sound(Stage_1_La_ele)

@@ -20,6 +20,7 @@
     {"name":"Obj_Block","order":1,"path":"objects/Obj_Block/Obj_Block.yy",},
     {"name":"Obj_Camera","order":2,"path":"objects/Obj_Camera/Obj_Camera.yy",},
     {"name":"Obj_Diamond","order":4,"path":"objects/Obj_Diamond/Obj_Diamond.yy",},
+    {"name":"Obj_Game","order":8,"path":"objects/Obj_Game/Obj_Game.yy",},
     {"name":"Obj_Snake_X","order":5,"path":"objects/Obj_Snake_X/Obj_Snake_X.yy",},
     {"name":"Obj_Snake_Y","order":7,"path":"objects/Obj_Snake_Y/Obj_Snake_Y.yy",},
     {"name":"Obj_Vida","order":3,"path":"objects/Obj_Vida/Obj_Vida.yy",},
