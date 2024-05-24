@@ -1,1 +1,0 @@
-audio_play_sound(Stage_1_La_ele, 0, true);

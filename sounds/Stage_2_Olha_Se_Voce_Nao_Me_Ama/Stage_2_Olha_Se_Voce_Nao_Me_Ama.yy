@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Stage_2_Olha_Se_Voce_Nao_Me_Ama",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":268.7054,
+  "name":"Stage_2_Olha_Se_Voce_Nao_Me_Ama",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Stage_2_Olha_Se_Voce_Nao_Me_Ama.WAV",
+  "type":0,
+  "volume":1.0,
+}
