@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"BluePenAdventures",
   "resources":[
@@ -49,13 +49,13 @@
     {"id":{"name":"Spr_snake_left","path":"sprites/Spr_snake_left/Spr_snake_left.yy",},},
     {"id":{"name":"Spr_snake_right","path":"sprites/Spr_snake_right/Spr_snake_right.yy",},},
     {"id":{"name":"Spr_snake_up","path":"sprites/Spr_snake_up/Spr_snake_up.yy",},},
-    {"id":{"name":"Spr_walk_down","path":"sprites/Spr_walk_down/Spr_walk_down.yy",},},
     {"id":{"name":"Spr_walk_left","path":"sprites/Spr_walk_left/Spr_walk_left.yy",},},
     {"id":{"name":"Spr_walk_right","path":"sprites/Spr_walk_right/Spr_walk_right.yy",},},
     {"id":{"name":"Spr_walk_up","path":"sprites/Spr_walk_up/Spr_walk_up.yy",},},
     {"id":{"name":"Sprite_Block","path":"sprites/Sprite_Block/Sprite_Block.yy",},},
     {"id":{"name":"Sprite_Life","path":"sprites/Sprite_Life/Sprite_Life.yy",},},
     {"id":{"name":"Sprite_undeground_background","path":"sprites/Sprite_undeground_background/Sprite_undeground_background.yy",},},
+    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
