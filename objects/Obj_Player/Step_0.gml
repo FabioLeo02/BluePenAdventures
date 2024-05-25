@@ -12,7 +12,7 @@ if (tecla_cima){
     if (!place_meeting(x, y - velocidade, Obj_Block)){
         y -= velocidade;
     }
-    sprite_index = Spr_walk_up;
+    sprite_index = Spr_walk_down;
 }
 else if (tecla_baixo){
     if (!place_meeting(x, y + velocidade, Obj_Block)){
@@ -24,13 +24,13 @@ else if (tecla_esq){
     if (!place_meeting(x - velocidade, y, Obj_Block)){
         x -= velocidade;
     }
-    sprite_index = Spr_walk_left;
+    sprite_index = Spr_walk_down;
 }
 else if (tecla_dir){
     if (!place_meeting(x + velocidade, y, Obj_Block)){
         x += velocidade;
     }
-    sprite_index = Spr_walk_right;
+    sprite_index = Spr_walk_down;
 }
 
 //Efeito de invecibilidade após levar dano
