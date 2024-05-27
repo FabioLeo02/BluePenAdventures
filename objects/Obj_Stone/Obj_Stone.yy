@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Obj_Stone",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Obj_Stone",
   "overriddenProperties":[],

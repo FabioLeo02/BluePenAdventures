@@ -9,3 +9,6 @@ diamantes = 0;
 vida = 3
 alfa_hit = 0;
 alarm[0] = 0;
+
+key_left = false;
+key_right = false;

@@ -41,7 +41,7 @@
     {"name":"Spr_snake_up","order":12,"path":"sprites/Spr_snake_up/Spr_snake_up.yy",},
     {"name":"Spr_Stone","order":14,"path":"sprites/Spr_Stone/Spr_Stone.yy",},
     {"name":"Spr_walk_left","order":3,"path":"sprites/Spr_walk_left/Spr_walk_left.yy",},
-    {"name":"Spr_walk_right","order":1,"path":"sprites/Spr_walk_right/Spr_walk_right.yy",},
+    {"name":"Spr_walk_right","order":15,"path":"sprites/Spr_walk_right/Spr_walk_right.yy",},
     {"name":"Spr_walk_up","order":2,"path":"sprites/Spr_walk_up/Spr_walk_up.yy",},
     {"name":"Sprite_Block","order":4,"path":"sprites/Sprite_Block/Sprite_Block.yy",},
     {"name":"Sprite_Life","order":5,"path":"sprites/Sprite_Life/Sprite_Life.yy",},
