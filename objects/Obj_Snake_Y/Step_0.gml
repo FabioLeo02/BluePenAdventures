@@ -1,4 +1,4 @@
-if (place_meeting(x, y + dir_cobra * vel_cobra, Obj_Block)) {
+if (place_meeting(x, y + dir_cobra * vel_cobra, Obj_Block) || place_meeting(x, y + dir_cobra * vel_cobra, Obj_Diamond) || place_meeting(x, y + dir_cobra * vel_cobra, Obj_Stone)) {
     if (wait_cobra <= 0) {
         dir_cobra *= -1; // muda a direção
         wait_cobra = 60; // espera 1 segundo (assumindo que a room speed é 60)
