@@ -6,3 +6,10 @@ if(place_meeting(x, y, Obj_Player)) {
         x += 1;
     }
 }
+
+// Adicione gravidade se a pedra não estiver em contato com um objeto sólido
+if(!place_meeting(x, y + 1, Obj_Block)) {
+    gravity = 1;
+} else {
+    gravity = 0;
+}
