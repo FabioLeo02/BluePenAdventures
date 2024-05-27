@@ -1,5 +1,5 @@
-if(place_meeting(x, y, Obj_Block)) {
-    while(!place_meeting(x-1, y, Obj_Block)) {
-        x--;
-    }
+// No evento de colisão de Obj_pedra com Obj_Block
+
+if (instance_exists(Obj_Block)) {
+    speed = 0;
 }
