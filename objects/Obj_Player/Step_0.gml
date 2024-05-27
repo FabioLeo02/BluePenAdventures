@@ -23,10 +23,9 @@ else if (tecla_baixo){
 }
 else if (tecla_esq){
     if (!place_meeting(x - velocidade, y, Obj_Block)){
-        if (place_meeting(x - velocidade, y, Obj_Stone) && !place_meeting(x - 2*velocidade, y, Obj_Block)){
-            with(instance_place(x - velocidade, y, Obj_Stone)){
-                x -= velocidade;
-            }
+        var stone = instance_place(x - velocidade, y, Obj_Stone);
+        if (stone != noone && stone.gravity == 0 && !place_meeting(x - 2*velocidade, y, Obj_Block)){
+            stone.x -= velocidade;
         } else {
             x -= velocidade;
         }
@@ -35,10 +34,9 @@ else if (tecla_esq){
 }
 else if (tecla_dir){
     if (!place_meeting(x + velocidade, y, Obj_Block)){
-        if (place_meeting(x + velocidade, y, Obj_Stone) && !place_meeting(x + 2*velocidade, y, Obj_Block)){
-            with(instance_place(x + velocidade, y, Obj_Stone)){
-                x += velocidade;
-            }
+        var stone = instance_place(x + velocidade, y, Obj_Stone);
+        if (stone != noone && stone.gravity == 0 && !place_meeting(x + 2*velocidade, y, Obj_Block)){
+            stone.x += velocidade;
         } else {
             x += velocidade;
         }
