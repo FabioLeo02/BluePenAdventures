@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Stage1_2",
+  "%Name":"Obj_Sound_Manager",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Stage1_2",
+  "name":"Obj_Sound_Manager",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

@@ -1,1 +1,0 @@
-audio_stop_sound(Stage_2_Olha_Se_Voce_Nao_Me_Ama)
