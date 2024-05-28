@@ -37,6 +37,7 @@
     {"id":{"name":"FontBluePen","path":"fonts/FontBluePen/FontBluePen.yy",},},
     {"id":{"name":"Obj_Block","path":"objects/Obj_Block/Obj_Block.yy",},},
     {"id":{"name":"Obj_Camera","path":"objects/Obj_Camera/Obj_Camera.yy",},},
+    {"id":{"name":"Obj_Credits","path":"objects/Obj_Credits/Obj_Credits.yy",},},
     {"id":{"name":"Obj_Diamond","path":"objects/Obj_Diamond/Obj_Diamond.yy",},},
     {"id":{"name":"Obj_DogDog_Logo","path":"objects/Obj_DogDog_Logo/Obj_DogDog_Logo.yy",},},
     {"id":{"name":"Obj_Logo","path":"objects/Obj_Logo/Obj_Logo.yy",},},

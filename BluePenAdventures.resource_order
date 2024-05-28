@@ -19,6 +19,7 @@
   "ResourceOrderSettings":[
     {"name":"Obj_Block","order":1,"path":"objects/Obj_Block/Obj_Block.yy",},
     {"name":"Obj_Camera","order":2,"path":"objects/Obj_Camera/Obj_Camera.yy",},
+    {"name":"Obj_Credits","order":17,"path":"objects/Obj_Credits/Obj_Credits.yy",},
     {"name":"Obj_Diamond","order":4,"path":"objects/Obj_Diamond/Obj_Diamond.yy",},
     {"name":"Obj_DogDog_Logo","order":16,"path":"objects/Obj_DogDog_Logo/Obj_DogDog_Logo.yy",},
     {"name":"Obj_Logo","order":15,"path":"objects/Obj_Logo/Obj_Logo.yy",},
