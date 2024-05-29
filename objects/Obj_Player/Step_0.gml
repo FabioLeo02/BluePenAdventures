@@ -49,5 +49,6 @@ if (estado = "vivo") {
 	    image_alpha = abs(sin(current_time / 200)); // Faz o personagem piscar
 	} else {
 	    image_alpha = 1; // Restaura a transparência normal quando o alarme termina
+	    levouDano = false; // Redefinido aqui
 	}
 }

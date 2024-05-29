@@ -3,6 +3,7 @@ velv = 0; //velocidade vertifcal
 dir = 0; //variavel de direção
 velc = 3.0; //velocidade do personagem
 estado = "vivo"
+levouDano = false; // Adicionado aqui
 
 //instance_create_layer()
 

@@ -6,9 +6,12 @@ if alarm[0] <= 0{
 }
 
 // Se a vida do jogador chegar a 0, ele morre
-if (vida <= 0){
+if (estado != "morto" && !levouDano){
+    if (vida <= 0){
         estado = "morto";
+        levouDano = true;
         audio_play_sound(la_ele_morte, 2, false);
-		sprite_index = Spr_Dead;
-		alarm[1] = room_speed * 2;
+        sprite_index = Spr_Dead;
+        alarm[1] = room_speed * 2;
+    }
 }
