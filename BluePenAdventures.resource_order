@@ -34,6 +34,7 @@
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
     {"name":"Options","order":3,"path":"rooms/Options/Options.yy",},
     {"name":"Stage1_2","order":2,"path":"rooms/Stage1_2/Stage1_2.yy",},
+    {"name":"Stage1_3","order":5,"path":"rooms/Stage1_3/Stage1_3.yy",},
     {"name":"Boss_Eu_Vou_Deixar_De_Ser_Besta","order":2,"path":"sounds/Boss_Eu_Vou_Deixar_De_Ser_Besta/Boss_Eu_Vou_Deixar_De_Ser_Besta.yy",},
     {"name":"Dano_Inimigo_Teste","order":4,"path":"sounds/Dano_Inimigo_Teste/Dano_Inimigo_Teste.yy",},
     {"name":"la_ele_morte","order":5,"path":"sounds/la_ele_morte/la_ele_morte.yy",},

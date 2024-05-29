@@ -54,6 +54,7 @@
     {"id":{"name":"Options","path":"rooms/Options/Options.yy",},},
     {"id":{"name":"Stage1_1","path":"rooms/Stage1_1/Stage1_1.yy",},},
     {"id":{"name":"Stage1_2","path":"rooms/Stage1_2/Stage1_2.yy",},},
+    {"id":{"name":"Stage1_3","path":"rooms/Stage1_3/Stage1_3.yy",},},
     {"id":{"name":"Boss_Eu_Vou_Deixar_De_Ser_Besta","path":"sounds/Boss_Eu_Vou_Deixar_De_Ser_Besta/Boss_Eu_Vou_Deixar_De_Ser_Besta.yy",},},
     {"id":{"name":"Dano_Inimigo_Teste","path":"sounds/Dano_Inimigo_Teste/Dano_Inimigo_Teste.yy",},},
     {"id":{"name":"la_ele_morte","path":"sounds/la_ele_morte/la_ele_morte.yy",},},
@@ -87,6 +88,7 @@
     {"roomId":{"name":"Stage1_2","path":"rooms/Stage1_2/Stage1_2.yy",},},
     {"roomId":{"name":"Options","path":"rooms/Options/Options.yy",},},
     {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
+    {"roomId":{"name":"Stage1_3","path":"rooms/Stage1_3/Stage1_3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

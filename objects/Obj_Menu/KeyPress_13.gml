@@ -1,7 +1,7 @@
 //Key Press Enter:
 if(index==0){
 	
-room_goto_next();
+room_goto(Stage1_1);
 
 }else if(index==1) {
 	

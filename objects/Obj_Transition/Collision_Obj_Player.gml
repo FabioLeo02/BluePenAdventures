@@ -1,7 +1,10 @@
-if (room_next(room) != -1)
-{
-	room_goto_next();	
-}
-else{
-	room_goto(Stage1_1);	
+// No evento Collision com Obj_Player do objeto Obj_transition, atualize a fase
+var current_room = room_get_name(room);
+
+if (current_room == "Stage1_1") {
+    room_goto(Stage1_2);
+} else if (current_room == "Stage1_2") {
+    room_goto(Stage1_3);
+} else if (current_room == "Stage1_3") {
+    room_goto(Stage1_1);
 }
