@@ -10,7 +10,9 @@ if (estado != "morto" && !levouDano){
     if (vida <= 0){
         estado = "morto";
         levouDano = true;
-        audio_play_sound(la_ele_morte, 2, false);
+		if (global.sound_effects_on) {
+    sound_effect = audio_play_sound(la_ele_morte, 2, false);
+		}
         sprite_index = Spr_Dead;
         alarm[1] = room_speed * 2;
     }

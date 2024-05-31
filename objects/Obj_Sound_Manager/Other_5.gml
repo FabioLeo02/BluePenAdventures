@@ -1,3 +1,4 @@
-if (room_next != Credits && room_next != Options) {
-    audio_stop_sound(room_music);
+// Room End
+if (global.room_music != noone) {
+    audio_stop_sound(global.room_music);
 }

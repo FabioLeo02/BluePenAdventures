@@ -6,7 +6,9 @@ if (place_meeting(x, y, Obj_Player) && !coletavel){
 	Obj_Player.diamantes++; // Incrementa a contagem de diamantes do jogador
 	image_index = 0; // Reinicia o índice da imagem
 	coletavel = true; // Marca o diamante como coletado
-	sound_effect = audio_play_sound(Moeda_Teste, 2, false);
+	if (global.sound_effects_on) {
+    sound_effect = audio_play_sound(Moeda_Teste, 2, false);
+	}
 }
 
 // Se o diamante foi coletado

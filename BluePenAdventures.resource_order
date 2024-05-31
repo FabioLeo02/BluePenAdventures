@@ -19,11 +19,13 @@
   "ResourceOrderSettings":[
     {"name":"Obj_Block","order":1,"path":"objects/Obj_Block/Obj_Block.yy",},
     {"name":"Obj_Camera","order":2,"path":"objects/Obj_Camera/Obj_Camera.yy",},
+    {"name":"Obj_Check","order":19,"path":"objects/Obj_Check/Obj_Check.yy",},
     {"name":"Obj_Credits","order":17,"path":"objects/Obj_Credits/Obj_Credits.yy",},
     {"name":"Obj_Diamond","order":4,"path":"objects/Obj_Diamond/Obj_Diamond.yy",},
     {"name":"Obj_DogDog_Logo","order":16,"path":"objects/Obj_DogDog_Logo/Obj_DogDog_Logo.yy",},
     {"name":"Obj_Logo","order":15,"path":"objects/Obj_Logo/Obj_Logo.yy",},
     {"name":"Obj_Menu","order":14,"path":"objects/Obj_Menu/Obj_Menu.yy",},
+    {"name":"Obj_Options","order":18,"path":"objects/Obj_Options/Obj_Options.yy",},
     {"name":"Obj_Snake_X","order":5,"path":"objects/Obj_Snake_X/Obj_Snake_X.yy",},
     {"name":"Obj_Snake_Y","order":7,"path":"objects/Obj_Snake_Y/Obj_Snake_Y.yy",},
     {"name":"Obj_Sound_Manager","order":13,"path":"objects/Obj_Sound_Manager/Obj_Sound_Manager.yy",},
