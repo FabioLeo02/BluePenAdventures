@@ -7,7 +7,7 @@ levouDano = false; // Adicionado aqui
 
 //instance_create_layer()
 
-diamantes = 0;
+global.diamantes = 0;
 vida = 3
 alfa_hit = 0;
 alarm[0] = 0;

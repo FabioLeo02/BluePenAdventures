@@ -3,7 +3,7 @@
 
 // Verifica se o jogador está em contato com um diamante e se o diamante ainda não foi coletado
 if (place_meeting(x, y, Obj_Player) && !coletavel){
-	Obj_Player.diamantes++; // Incrementa a contagem de diamantes do jogador
+	global.diamantes++; // Incrementa a contagem de diamantes do jogador
 	image_index = 0; // Reinicia o índice da imagem
 	coletavel = true; // Marca o diamante como coletado
 	if (global.sound_effects_on) {

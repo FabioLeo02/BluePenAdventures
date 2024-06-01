@@ -16,5 +16,5 @@ var w_gui = display_get_gui_width()
 draw_sprite(Spr_Diamond,0, w_gui - draw_x,draw_y + 7);
 
 draw_set_halign(fa_right);
-draw_text( w_gui - draw_x*2, draw_y, diamantes);
+draw_text( w_gui - draw_x*2, draw_y, global.diamantes);
 draw_set_halign(fa_left)

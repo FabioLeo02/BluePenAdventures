@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Vida",
+  "%Name":"Obj_Porta",
   "eventList":[],
   "managed":true,
-  "name":"Obj_Vida",
+  "name":"Obj_Porta",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_Life",
-    "path":"sprites/Sprite_Life/Sprite_Life.yy",
+    "name":"Spr_Porta",
+    "path":"sprites/Spr_Porta/Spr_Porta.yy",
   },
   "spriteMaskId":null,
   "visible":true,
