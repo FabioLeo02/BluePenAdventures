@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"FontBluePen","path":"fonts/FontBluePen/FontBluePen.yy",},},
     {"id":{"name":"Obj_Block","path":"objects/Obj_Block/Obj_Block.yy",},},
+    {"id":{"name":"Obj_Boss","path":"objects/Obj_Boss/Obj_Boss.yy",},},
     {"id":{"name":"Obj_Camera","path":"objects/Obj_Camera/Obj_Camera.yy",},},
     {"id":{"name":"Obj_Check","path":"objects/Obj_Check/Obj_Check.yy",},},
     {"id":{"name":"Obj_Credits","path":"objects/Obj_Credits/Obj_Credits.yy",},},
@@ -63,6 +64,7 @@
     {"id":{"name":"Moeda_Teste","path":"sounds/Moeda_Teste/Moeda_Teste.yy",},},
     {"id":{"name":"Stage_1_La_ele","path":"sounds/Stage_1_La_ele/Stage_1_La_ele.yy",},},
     {"id":{"name":"Stage_2_Olha_Se_Voce_Nao_Me_Ama","path":"sounds/Stage_2_Olha_Se_Voce_Nao_Me_Ama/Stage_2_Olha_Se_Voce_Nao_Me_Ama.yy",},},
+    {"id":{"name":"Spr_Boss","path":"sprites/Spr_Boss/Spr_Boss.yy",},},
     {"id":{"name":"Spr_Dead","path":"sprites/Spr_Dead/Spr_Dead.yy",},},
     {"id":{"name":"Spr_Diamond_Effect","path":"sprites/Spr_Diamond_Effect/Spr_Diamond_Effect.yy",},},
     {"id":{"name":"Spr_Diamond","path":"sprites/Spr_Diamond/Spr_Diamond.yy",},},
