@@ -26,7 +26,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"congrats bluepen.jfif","CopyToMask":-1,"filePath":"datafiles","name":"congrats bluepen.jfif","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -40,6 +42,7 @@
     {"id":{"name":"Obj_Boss","path":"objects/Obj_Boss/Obj_Boss.yy",},},
     {"id":{"name":"Obj_Camera","path":"objects/Obj_Camera/Obj_Camera.yy",},},
     {"id":{"name":"Obj_Check","path":"objects/Obj_Check/Obj_Check.yy",},},
+    {"id":{"name":"Obj_Congrats","path":"objects/Obj_Congrats/Obj_Congrats.yy",},},
     {"id":{"name":"Obj_Credits","path":"objects/Obj_Credits/Obj_Credits.yy",},},
     {"id":{"name":"Obj_Diamond","path":"objects/Obj_Diamond/Obj_Diamond.yy",},},
     {"id":{"name":"Obj_DogDog_Logo","path":"objects/Obj_DogDog_Logo/Obj_DogDog_Logo.yy",},},
@@ -54,6 +57,7 @@
     {"id":{"name":"Obj_Sound_Manager","path":"objects/Obj_Sound_Manager/Obj_Sound_Manager.yy",},},
     {"id":{"name":"Obj_Stone","path":"objects/Obj_Stone/Obj_Stone.yy",},},
     {"id":{"name":"Obj_Transition","path":"objects/Obj_Transition/Obj_Transition.yy",},},
+    {"id":{"name":"Congrats","path":"rooms/Congrats/Congrats.yy",},},
     {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Options","path":"rooms/Options/Options.yy",},},
@@ -99,6 +103,7 @@
     {"roomId":{"name":"Options","path":"rooms/Options/Options.yy",},},
     {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"roomId":{"name":"Stage1_3","path":"rooms/Stage1_3/Stage1_3.yy",},},
+    {"roomId":{"name":"Congrats","path":"rooms/Congrats/Congrats.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

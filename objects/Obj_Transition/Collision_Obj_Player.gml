@@ -6,5 +6,7 @@ if (current_room == "Stage1_1") {
 } else if (current_room == "Stage1_2") {
     room_goto(Stage1_3);
 } else if (current_room == "Stage1_3") {
-    room_goto(Stage1_1);
+    room_goto(Congrats);
+} else if (current_room == "Congrats") {
+    room_goto(Credits);
 }
