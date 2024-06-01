@@ -14,12 +14,17 @@ switch (state) {
         }
         break;
 
-    case BossState.Rising:
+  case BossState.Rising:
         hspeed = 0;
         vspeed = -2;
         if (place_meeting(x, y - 1, Obj_Block)) {
             state = BossState.Falling;
-        }
+
+            // Se o chefe está subindo e colide com um Obj_Block, crie um Obj_Stone
+            var stone_x = choose(414, 734, 1086);  // Escolha uma das três coordenadas x
+            var stone_y = 317;  // A coordenada y é sempre a mesma
+            instance_create_layer(stone_x, stone_y, "Instances", Obj_Stone);  // Crie um Obj_Stone na coordenada escolhida
+		}
         break;
 
     case BossState.Falling:
@@ -46,4 +51,10 @@ switch (state) {
             state = BossState.Idle;
         }
         break;
+}
+
+if (invencivel || alarm[2] > 0) {
+    image_alpha = (image_alpha + 0.5) % 1;  // Faça o chefe piscar
+} else {
+    image_alpha = 1;  // Pare de piscar quando o chefe não estiver mais invencível
 }

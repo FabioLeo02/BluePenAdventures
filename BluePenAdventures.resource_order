@@ -52,6 +52,7 @@
     {"name":"Spr_Diamond","order":7,"path":"sprites/Spr_Diamond/Spr_Diamond.yy",},
     {"name":"Spr_DogDog_Logo","order":17,"path":"sprites/Spr_DogDog_Logo/Spr_DogDog_Logo.yy",},
     {"name":"Spr_End","order":13,"path":"sprites/Spr_End/Spr_End.yy",},
+    {"name":"Spr_Life_Boss","order":22,"path":"sprites/Spr_Life_Boss/Spr_Life_Boss.yy",},
     {"name":"Spr_Logo","order":16,"path":"sprites/Spr_Logo/Spr_Logo.yy",},
     {"name":"Spr_Player_Colision","order":21,"path":"sprites/Spr_Player_Colision/Spr_Player_Colision.yy",},
     {"name":"Spr_snake_down","order":9,"path":"sprites/Spr_snake_down/Spr_snake_down.yy",},

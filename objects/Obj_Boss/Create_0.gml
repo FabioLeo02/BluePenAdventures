@@ -9,3 +9,6 @@ enum BossState {
 
 state = BossState.Idle;
 original_y = y;
+
+vida = 3;  // Dê ao chefe 3 vidas
+invencivel = false;  // Variável para rastrear se o chefe está invencível
