@@ -1,6 +1,4 @@
-draw_self()
+// Draw event for Obj_Button_OK
 
-var x1 = display_get_gui_width() / 2;
-var y1 = display_get_gui_height() / 2;
-
-draw_sprite(sprite_index, image_index, x1, y1);
+draw_self();
+draw_sprite(sprite_index, image_index, button_x, button_y);

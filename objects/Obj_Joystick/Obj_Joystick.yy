@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Button_Ok",
+  "%Name":"Obj_Joystick",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":56,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Button_Ok",
+  "name":"Obj_Joystick",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Button_Ok",
-    "path":"sprites/Spr_Button_Ok/Spr_Button_Ok.yy",
+    "name":"Spr_Joystick_Idle",
+    "path":"sprites/Spr_Joystick_Idle/Spr_Joystick_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
