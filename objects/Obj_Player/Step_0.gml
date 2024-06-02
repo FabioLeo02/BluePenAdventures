@@ -1,3 +1,4 @@
+
 if (estado = "vivo") {
 	//Movimentação do personagem
 	var tecla_cima = keyboard_check(vk_up);
@@ -51,4 +52,17 @@ if (estado = "vivo") {
 	    image_alpha = 1; // Restaura a transparência normal quando o alarme termina
 	    levouDano = false; // Redefinido aqui
 	}
+
+	// Adicionando a lógica do joystick
+	scrPlayerKeyboard();
+	scrPlayerTouch();
+}
+
+ if (vida <= 0) {
+        estado = "morto";
+        sprite_index = Spr_Dead; // Mostra o sprite de morte
+        alarm[1] = room_speed * 2; // Define um alarme para reiniciar a room
+    } else if (estado == "morto") {
+    // Quando o personagem está morto, ele não pode se mover ou levar dano
+    // Então, não faça nada aqui
 }

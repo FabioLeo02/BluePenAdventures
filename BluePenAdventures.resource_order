@@ -45,6 +45,10 @@
     {"name":"Options","order":3,"path":"rooms/Options/Options.yy",},
     {"name":"Stage1_2","order":2,"path":"rooms/Stage1_2/Stage1_2.yy",},
     {"name":"Stage1_3","order":5,"path":"rooms/Stage1_3/Stage1_3.yy",},
+    {"name":"scrCharMoveTo","order":1,"path":"scripts/scrCharMoveTo/scrCharMoveTo.yy",},
+    {"name":"scrMoveCharacter","order":5,"path":"scripts/scrMoveCharacter/scrMoveCharacter.yy",},
+    {"name":"scrPlayerKeyboard","order":3,"path":"scripts/scrPlayerKeyboard/scrPlayerKeyboard.yy",},
+    {"name":"scrPlayerTouch","order":2,"path":"scripts/scrPlayerTouch/scrPlayerTouch.yy",},
     {"name":"Boss_Eu_Vou_Deixar_De_Ser_Besta","order":2,"path":"sounds/Boss_Eu_Vou_Deixar_De_Ser_Besta/Boss_Eu_Vou_Deixar_De_Ser_Besta.yy",},
     {"name":"Dano_Inimigo_Teste","order":4,"path":"sounds/Dano_Inimigo_Teste/Dano_Inimigo_Teste.yy",},
     {"name":"la_ele_morte","order":5,"path":"sounds/la_ele_morte/la_ele_morte.yy",},
@@ -81,5 +85,6 @@
     {"name":"Sprite_Block","order":4,"path":"sprites/Sprite_Block/Sprite_Block.yy",},
     {"name":"Sprite_Life","order":5,"path":"sprites/Sprite_Life/Sprite_Life.yy",},
     {"name":"Sprite_undeground_background","order":6,"path":"sprites/Sprite_undeground_background/Sprite_undeground_background.yy",},
+    {"name":"sprJoystick","order":35,"path":"sprites/sprJoystick/sprJoystick.yy",},
   ],
 }

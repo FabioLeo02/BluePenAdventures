@@ -18,3 +18,7 @@ draw_sprite(Spr_Diamond,0, w_gui - draw_x,draw_y + 7);
 draw_set_halign(fa_right);
 draw_text( w_gui - draw_x*2, draw_y, global.diamantes);
 draw_set_halign(fa_left)
+
+if (joystick.finger == -1) { exit; }
+
+draw_sprite(sprJoystick, 0, joystick.x, joystick.y);

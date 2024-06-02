@@ -1,2 +1,2 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+// Alarm 0
+invincible = false;
