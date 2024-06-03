@@ -45,24 +45,25 @@ if (estado = "vivo") {
 	    sprite_index = Spr_walk_right;
 	}
 
-	//Efeito de invecibilidade após levar dano
-	if (alarm[0] > 0){
-	    image_alpha = abs(sin(current_time / 200)); // Faz o personagem piscar
-	} else {
-	    image_alpha = 1; // Restaura a transparência normal quando o alarme termina
-	    levouDano = false; // Redefinido aqui
-	}
+		if (alarm[0] > 0){
+        image_alpha = abs(sin(current_time / 200)); // Faz o personagem piscar
+    } else {
+        image_alpha = 1; // Restaura a transparência normal quando o alarme termina
+        levouDano = false; // Redefinido aqui
+    }
 
-	// Adicionando a lógica do joystick
-	scrPlayerKeyboard();
-	scrPlayerTouch();
+    // Adicionando a lógica do joystick
+    scrPlayerKeyboard();
+    scrPlayerTouch();
 }
 
- if (vida <= 0) {
-        estado = "morto";
-        sprite_index = Spr_Dead; // Mostra o sprite de morte
-        alarm[1] = room_speed * 2; // Define um alarme para reiniciar a room
-    } else if (estado == "morto") {
-    // Quando o personagem está morto, ele não pode se mover ou levar dano
-    // Então, não faça nada aqui
+// Se a vida do jogador chegar a 0, ele morre
+if (vida <= 0 && estado != "morto"){
+    estado = "morto";
+    levouDano = true;
+    if (global.sound_effects_on) {
+        sound_effect = audio_play_sound(la_ele_morte, 2, false);
+    }
+    sprite_index = Spr_Dead; // Mostra o sprite de morte
+    alarm[1] = room_speed * 2; // Define um alarme para reiniciar a room
 }

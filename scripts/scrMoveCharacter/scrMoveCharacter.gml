@@ -12,8 +12,8 @@ function scrMoveCharacter() {
             image_speed = 1;
         }
     } else if (estado == "morto") {
-        // Quando o personagem está morto, ele não pode se mover ou ser controlado pelo joystick
+        /* Quando o personagem está morto, ele não pode se mover ou ser controlado pelo joystick
         sprite_index = Spr_Dead; // Mostra o sprite de morte
-        alarm[1] = room_speed * 2; // Define um alarme para reiniciar a room
+        alarm[1] = room_speed * 2; // Define um alarme para reiniciar a room*/
     }
 }

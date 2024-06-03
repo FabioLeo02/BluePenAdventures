@@ -28,4 +28,4 @@ joystick = {
 	anchorY: 0,
 	
 	maxDistance: 48
-};
+}
