@@ -56,7 +56,7 @@ if (estado = "vivo") {
     scrPlayerKeyboard();
     scrPlayerTouch();
 }
-
+ 
 // Se a vida do jogador chegar a 0, ele morre
 if (vida <= 0 && estado != "morto"){
     estado = "morto";

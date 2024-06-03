@@ -1,4 +1,3 @@
-// Evento de colisão com Obj_Snake_X e Obj_Snake_Y
 if (estado == "vivo" && !invincible) {
     vida -= 1;
     invincible = true;
