@@ -101,6 +101,7 @@
     {"id":{"name":"Spr_snake_down","path":"sprites/Spr_snake_down/Spr_snake_down.yy",},},
     {"id":{"name":"Spr_snake_left","path":"sprites/Spr_snake_left/Spr_snake_left.yy",},},
     {"id":{"name":"Spr_snake_right","path":"sprites/Spr_snake_right/Spr_snake_right.yy",},},
+    {"id":{"name":"Spr_snake_up_2","path":"sprites/Spr_snake_up_2/Spr_snake_up_2.yy",},},
     {"id":{"name":"Spr_snake_up","path":"sprites/Spr_snake_up/Spr_snake_up.yy",},},
     {"id":{"name":"Spr_Stone","path":"sprites/Spr_Stone/Spr_Stone.yy",},},
     {"id":{"name":"Spr_walk_down","path":"sprites/Spr_walk_down/Spr_walk_down.yy",},},

@@ -77,6 +77,7 @@
     {"name":"Spr_snake_down","order":9,"path":"sprites/Spr_snake_down/Spr_snake_down.yy",},
     {"name":"Spr_snake_left","order":10,"path":"sprites/Spr_snake_left/Spr_snake_left.yy",},
     {"name":"Spr_snake_right","order":11,"path":"sprites/Spr_snake_right/Spr_snake_right.yy",},
+    {"name":"Spr_snake_up_2","order":36,"path":"sprites/Spr_snake_up_2/Spr_snake_up_2.yy",},
     {"name":"Spr_snake_up","order":12,"path":"sprites/Spr_snake_up/Spr_snake_up.yy",},
     {"name":"Spr_Stone","order":14,"path":"sprites/Spr_Stone/Spr_Stone.yy",},
     {"name":"Spr_walk_left","order":3,"path":"sprites/Spr_walk_left/Spr_walk_left.yy",},
