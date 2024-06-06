@@ -43,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_walk_down",
-    "path":"sprites/Spr_walk_down/Spr_walk_down.yy",
+    "name":"Spr_walk_right",
+    "path":"sprites/Spr_walk_right/Spr_walk_right.yy",
   },
   "spriteMaskId":null,
   "visible":true,

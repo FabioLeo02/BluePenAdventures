@@ -16,6 +16,6 @@ if (estado == "vivo") {
                 break;
         }
     } else {
-        sprite_index = Spr_walk_down; // ou qualquer outro sprite que você queira usar para o estado Idle
+        sprite_index = Spr_Idle; // ou qualquer outro sprite que você queira usar para o estado Idle
     }
 }

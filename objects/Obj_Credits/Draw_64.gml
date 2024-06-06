@@ -31,7 +31,7 @@ for(var i=0;i<op_max;i++){
 }
 draw_set_font(-1);
 
-var creditos = "Creditos\n\nProgramadores:      Fabio Leandro, Elisvanilton Borges\nPixel Artista:                            Lucas Daniel\nEfeitos Sonoros:                         Georges Paiva\nBeta Tester:                                 Yan Breno\nDiretor de Arte:                       Jefferson Alves\n\nRemixes:\n\n'La Ele' por Manoel Gomes, Tiery\n'Olha, se voce nao me ama' por Manoel Gomes\n'Eu Vou Deixar de Ser Besta' por Manoel Gomes";
+var creditos = "Creditos\n\nProgramadores:      Fabio Leandro, Elisvanilton Borges\nPixel Artista:                            Lucas Daniel\nEfeitos Sonoros:                         Georges Paiva\nBeta Tester:                                 Yan Breno\nDiretor de Arte:                       Jefferson Alves\n\nRemixes:\n\n'La Ele' por Manoel Gomes, Tiery\n'Olha, se voce nao me ama' por Manoel Gomes,Tierry\n'Eu Vou Deixar de Ser Besta' por Manoel Gomes\n\nAgradecimentos Especiais:\nProf.Carlos Wagner pela ideia do tema da Fase\n\nAssets:\nJoystick Virtual por: jucarave (www.youtube.com/@jucarave)";
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_color(c_white);

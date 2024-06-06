@@ -7,7 +7,7 @@ if (place_meeting(x, y, Obj_Player) && !coletavel){
 	image_index = 0; // Reinicia o índice da imagem
 	coletavel = true; // Marca o diamante como coletado
 	if (global.sound_effects_on) {
-    sound_effect = audio_play_sound(Moeda_Teste, 2, false);
+    sound_effect = audio_play_sound(Diamond_Sound, 2, false);
 	}
 }
 
